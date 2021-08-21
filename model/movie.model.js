@@ -4,7 +4,9 @@ class MovieModel {
 
 constructor(data) {
 
-    this.title= data.results.title;
+    this.title= data.title;
+    this.overview=data.overview;
+    this.vote_average=data.vote_average;
 }
 
 }

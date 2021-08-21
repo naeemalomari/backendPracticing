@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 
-const movieController =require('./controller/movie.controler');
+const movieController =require('./controller/movie.controller');
 //http://localhost:5600/movie
 app.get('/movie' ,movieController.getMovieData)
 
